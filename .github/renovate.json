@@ -3,7 +3,7 @@
   "extends": ["config:base"],
   "updateInternalDeps": true,
   "rangeStrategy": "bump",
-  "automerge": false,
+  "automerge": true,
   "npm": {
     "fileMatch": ["(^|/)package\\.json$"]
   }
