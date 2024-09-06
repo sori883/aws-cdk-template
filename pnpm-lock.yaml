@@ -9,8 +9,8 @@ importers:
   .:
     dependencies:
       aws-cdk-lib:
-        specifier: 2.155.0
-        version: 2.155.0(constructs@10.3.0)
+        specifier: 2.156.0
+        version: 2.156.0(constructs@10.3.0)
       constructs:
         specifier: ^10.3.0
         version: 10.3.0
@@ -28,8 +28,8 @@ importers:
         specifier: 20.16.5
         version: 20.16.5
       aws-cdk:
-        specifier: 2.155.0
-        version: 2.155.0
+        specifier: 2.156.0
+        version: 2.156.0
       jest:
         specifier: ^29.7.0
         version: 29.7.0(@types/node@20.16.5)(ts-node@10.9.2(@types/node@20.16.5)(typescript@5.5.4))
@@ -491,8 +491,8 @@ packages:
   async@3.2.5:
     resolution: {integrity: sha512-baNZyqaaLhyLVKm/DlvdW051MSgO6b8eVfIezl9E5PqWxFgzLm/wQntEW4zOytVburDEr0JlALEpdOFwvErLsg==}
 
-  aws-cdk-lib@2.155.0:
-    resolution: {integrity: sha512-QGzDhLldBXsyOUmhgtZ98PiOUS2g1Mb5MO08FiOvQn3+KSyJjQdq0GoyxtDpCNGLaWmIfcyrtB9aDhod38fl9g==}
+  aws-cdk-lib@2.156.0:
+    resolution: {integrity: sha512-iZJEWlJYGcwtHcaLVps5IjMegaka5btXcOH8hgTTjcFMFwR83KVBix6mDkhbGcLMIoIZBYBpp5t9fgG+ZuyNoA==}
     engines: {node: '>= 14.15.0'}
     peerDependencies:
       constructs: ^10.0.0
@@ -509,8 +509,8 @@ packages:
       - yaml
       - mime-types
 
-  aws-cdk@2.155.0:
-    resolution: {integrity: sha512-AV7Ym/o7/xyDh6sqcGatWD6Bqa7Swe0OWJq+1srVww0MdBiy5yM3zYAA1+ZeqZNjFQThJPA+pYZQFTgojuaVBA==}
+  aws-cdk@2.156.0:
+    resolution: {integrity: sha512-f8Uk3XK1mqG1j9lP9Dj8IKVC6MOvODHZ0iQ3Ytpv3O9hDOu5qGpfksw43S20I8jsJwI/caauO8ZNTF+xPBpYpg==}
     engines: {node: '>= 14.15.0'}
     hasBin: true
 
@@ -1959,7 +1959,7 @@ snapshots:
 
   async@3.2.5: {}
 
-  aws-cdk-lib@2.155.0(constructs@10.3.0):
+  aws-cdk-lib@2.156.0(constructs@10.3.0):
     dependencies:
       '@aws-cdk/asset-awscli-v1': 2.2.202
       '@aws-cdk/asset-kubectl-v20': 2.1.2
@@ -1967,7 +1967,7 @@ snapshots:
       '@aws-cdk/cloud-assembly-schema': 36.0.21
       constructs: 10.3.0
 
-  aws-cdk@2.155.0:
+  aws-cdk@2.156.0:
     optionalDependencies:
       fsevents: 2.3.2
 
