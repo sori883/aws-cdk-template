@@ -13,7 +13,7 @@ export class Ec2 {
   public readonly ec2: ec2.Instance;
 
   constructor(scope: Construct, props: SubStackProps) {
-    const instanceProfile = new iam.CfnInstanceProfile(scope, 'MyInstanceProfile', {
+    const instanceProfile = new iam.CfnInstanceProfile(scope, 'myInstanceProfile', {
       roles: [
         props.ec2Role.attrArn,
       ],
