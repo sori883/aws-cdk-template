@@ -9,8 +9,8 @@ importers:
   .:
     dependencies:
       aws-cdk-lib:
-        specifier: 2.202.0
-        version: 2.202.0(constructs@10.4.2)
+        specifier: 2.203.0
+        version: 2.203.0(constructs@10.4.2)
       constructs:
         specifier: ^10.4.2
         version: 10.4.2
@@ -52,14 +52,14 @@ packages:
     resolution: {integrity: sha512-30iZtAPgz+LTIYoeivqYo853f02jBYSd5uGnGpkFV0M3xOt9aN73erkgYAmZU43x4VfqcnLxW9Kpg3R5LC4YYw==}
     engines: {node: '>=6.0.0'}
 
-  '@aws-cdk/asset-awscli-v1@2.2.240':
-    resolution: {integrity: sha512-Ry5yvGVf8s7j1Gf1aBFs0mBnWzRkkRtgSVpRGkDWXvZoPbRODAH33S1mAxkETNb+dNnTPGE2Gvws0XbhpJ6RzA==}
+  '@aws-cdk/asset-awscli-v1@2.2.242':
+    resolution: {integrity: sha512-4c1bAy2ISzcdKXYS1k4HYZsNrgiwbiDzj36ybwFVxEWZXVAP0dimQTCaB9fxu7sWzEjw3d+eaw6Fon+QTfTIpQ==}
 
   '@aws-cdk/asset-node-proxy-agent-v6@2.1.0':
     resolution: {integrity: sha512-7bY3J8GCVxLupn/kNmpPc5VJz8grx+4RKfnnJiO1LG+uxkZfANZG3RMHhE+qQxxwkyQ9/MfPtTpf748UhR425A==}
 
-  '@aws-cdk/cloud-assembly-schema@44.5.0':
-    resolution: {integrity: sha512-/dk9YtqF+BnBS6k4m7YWIp7Pd80m7jdjT8ED8gb3Rd9hAuAEUoJubO0M3EOlLFmknIesQNm95LYU6vt/MIQhWg==}
+  '@aws-cdk/cloud-assembly-schema@44.9.0':
+    resolution: {integrity: sha512-zQ/CwW/CZ3Zcf2vdukBCHbZi8wwYuoVIRU7w6dWS7Y7wPuq7iWTWwQyujvH5YlDVMyH4mrgYa3f1lV2etTZLVQ==}
     engines: {node: '>= 18.0.0'}
     bundledDependencies:
       - jsonschema
@@ -636,8 +636,8 @@ packages:
   async@3.2.5:
     resolution: {integrity: sha512-baNZyqaaLhyLVKm/DlvdW051MSgO6b8eVfIezl9E5PqWxFgzLm/wQntEW4zOytVburDEr0JlALEpdOFwvErLsg==}
 
-  aws-cdk-lib@2.202.0:
-    resolution: {integrity: sha512-JDycQoE8AxUAeCFXFoCx6FGvR78e6W9zYxPgmfW/uPPbntyNCXXBqwyAYo17RGS/lr0RO3zqD/oCBZSNU2e/Yg==}
+  aws-cdk-lib@2.203.0:
+    resolution: {integrity: sha512-9aB/oIZ2nNVfuqCJuZ66122U/pkkOfR4OcC8aXbgRLc1hKSnTXtGC9W2LlortweBZwTaTs4sk4xaQ9TYHgk0CQ==}
     engines: {node: '>= 14.15.0'}
     peerDependencies:
       constructs: ^10.0.0
@@ -1588,11 +1588,11 @@ snapshots:
       '@jridgewell/gen-mapping': 0.3.5
       '@jridgewell/trace-mapping': 0.3.25
 
-  '@aws-cdk/asset-awscli-v1@2.2.240': {}
+  '@aws-cdk/asset-awscli-v1@2.2.242': {}
 
   '@aws-cdk/asset-node-proxy-agent-v6@2.1.0': {}
 
-  '@aws-cdk/cloud-assembly-schema@44.5.0': {}
+  '@aws-cdk/cloud-assembly-schema@44.9.0': {}
 
   '@babel/code-frame@7.27.1':
     dependencies:
@@ -2256,11 +2256,11 @@ snapshots:
 
   async@3.2.5: {}
 
-  aws-cdk-lib@2.202.0(constructs@10.4.2):
+  aws-cdk-lib@2.203.0(constructs@10.4.2):
     dependencies:
-      '@aws-cdk/asset-awscli-v1': 2.2.240
+      '@aws-cdk/asset-awscli-v1': 2.2.242
       '@aws-cdk/asset-node-proxy-agent-v6': 2.1.0
-      '@aws-cdk/cloud-assembly-schema': 44.5.0
+      '@aws-cdk/cloud-assembly-schema': 44.9.0
       constructs: 10.4.2
 
   aws-cdk@2.1020.0:
