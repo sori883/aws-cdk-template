@@ -29,7 +29,7 @@
     "@biomejs/biome": "1.9.4",
     "@types/jest": "^30.0.0",
     "@types/node": "22.15.34",
-    "aws-cdk": "2.1019.2",
+    "aws-cdk": "2.1020.0",
     "jest": "^30.0.3",
     "ts-jest": "^29.4.0",
     "ts-node": "^10.9.2",
