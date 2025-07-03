@@ -30,7 +30,7 @@
     "@types/jest": "^30.0.0",
     "@types/node": "22.16.0",
     "aws-cdk": "2.1020.1",
-    "jest": "^30.0.3",
+    "jest": "^30.0.4",
     "ts-jest": "^29.4.0",
     "ts-node": "^10.9.2",
     "tsconfig-paths": "^4.2.0",
