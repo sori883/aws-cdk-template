@@ -9,8 +9,8 @@ importers:
   .:
     dependencies:
       aws-cdk-lib:
-        specifier: 2.207.0
-        version: 2.207.0(constructs@10.4.2)
+        specifier: 2.208.0
+        version: 2.208.0(constructs@10.4.2)
       constructs:
         specifier: ^10.4.2
         version: 10.4.2
@@ -58,8 +58,8 @@ packages:
   '@aws-cdk/asset-node-proxy-agent-v6@2.1.0':
     resolution: {integrity: sha512-7bY3J8GCVxLupn/kNmpPc5VJz8grx+4RKfnnJiO1LG+uxkZfANZG3RMHhE+qQxxwkyQ9/MfPtTpf748UhR425A==}
 
-  '@aws-cdk/cloud-assembly-schema@45.1.0':
-    resolution: {integrity: sha512-vMV6nbV2dwqX3FO1PFPGXw9GzBmP30nnixHZQrT+Q6yatAt6xmj/dK4GLxzl/sFP3ItgMzBvgEekRL6Ajf4taw==}
+  '@aws-cdk/cloud-assembly-schema@45.2.0':
+    resolution: {integrity: sha512-5TTUkGHQ+nfuUGwKA8/Yraxb+JdNUh4np24qk/VHXmrCMq+M6HfmGWfhcg/QlHA2S5P3YIamfYHdQAB4uSNLAg==}
     engines: {node: '>= 18.0.0'}
     bundledDependencies:
       - jsonschema
@@ -636,8 +636,8 @@ packages:
   async@3.2.5:
     resolution: {integrity: sha512-baNZyqaaLhyLVKm/DlvdW051MSgO6b8eVfIezl9E5PqWxFgzLm/wQntEW4zOytVburDEr0JlALEpdOFwvErLsg==}
 
-  aws-cdk-lib@2.207.0:
-    resolution: {integrity: sha512-DlXUeg6cK6T71jyf6UQAUquRVnG388dIsxb4IuW0Wkn+9t6z4NO39sGCs91mV2RZtPChWy+e8BRVtQx/uBdLww==}
+  aws-cdk-lib@2.208.0:
+    resolution: {integrity: sha512-lZW475enKz36A/hZvS7xUwfjeqLqxKgBmZ2cGA7BB5PAlQsjBfN70ZGDgGl0egug5fb/hsYy1Dy4OrclfNzxFg==}
     engines: {node: '>= 14.15.0'}
     peerDependencies:
       constructs: ^10.0.0
@@ -1592,7 +1592,7 @@ snapshots:
 
   '@aws-cdk/asset-node-proxy-agent-v6@2.1.0': {}
 
-  '@aws-cdk/cloud-assembly-schema@45.1.0': {}
+  '@aws-cdk/cloud-assembly-schema@45.2.0': {}
 
   '@babel/code-frame@7.27.1':
     dependencies:
@@ -2256,11 +2256,11 @@ snapshots:
 
   async@3.2.5: {}
 
-  aws-cdk-lib@2.207.0(constructs@10.4.2):
+  aws-cdk-lib@2.208.0(constructs@10.4.2):
     dependencies:
       '@aws-cdk/asset-awscli-v1': 2.2.242
       '@aws-cdk/asset-node-proxy-agent-v6': 2.1.0
-      '@aws-cdk/cloud-assembly-schema': 45.1.0
+      '@aws-cdk/cloud-assembly-schema': 45.2.0
       constructs: 10.4.2
 
   aws-cdk@2.1023.0:
