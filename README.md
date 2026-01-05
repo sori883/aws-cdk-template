@@ -72,7 +72,7 @@ ACCOUNT_ID=あなたのAWSアカウントID
 
 ```bash
 # 開発環境
-pnpm  cdk:dev <command>  # 例: pnpm cdk:dev synth
+pnpm cdk:dev <command>  # 例: pnpm cdk:dev synth
 
 # ステージング環境
 pnpm cdk:stg <command>
