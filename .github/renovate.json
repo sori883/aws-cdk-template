@@ -4,7 +4,22 @@
   "updateInternalDeps": true,
   "rangeStrategy": "bump",
   "dependencyDashboard": true,
-  "automerge": true,
+  "packageRules": [
+    {
+      "matchUpdateTypes": ["patch"],
+      "automerge": true,
+      "automergeType": "pr",
+      "platformAutomerge": true
+    },
+    {
+      "matchUpdateTypes": ["minor"],
+      "automerge": false
+    },
+    {
+      "matchUpdateTypes": ["major"],
+      "automerge": false
+    }
+  ],
   "npm": {
     "fileMatch": ["(^|/)package\\.json$", "(^|/)package\\.json\\.hbs$"]
   }
