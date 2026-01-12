@@ -3,6 +3,8 @@
   "extends": ["config:base"],
   "updateInternalDeps": true,
   "rangeStrategy": "bump",
+  "dependencyDashboard": true,
+  "dependencyDashboardAutoclose": false
   "automerge": true ,
   "npm": {
     "fileMatch": ["(^|/)package\\.json$", "(^|/)package\\.json\\.hbs$"]
