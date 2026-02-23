@@ -28,8 +28,8 @@ importers:
         specifier: ^24.10.4
         version: 24.10.4
       aws-cdk:
-        specifier: 2.1104.0
-        version: 2.1104.0
+        specifier: 2.1107.0
+        version: 2.1107.0
       dotenv:
         specifier: ^17.2.4
         version: 17.2.4
@@ -762,8 +762,8 @@ packages:
       - yaml
       - mime-types
 
-  aws-cdk@2.1104.0:
-    resolution: {integrity: sha512-TGIK2Mpfqi0BA6Np9aJz0d5HAvTxWd17FrwtXlJuwqdQbR9R/IRqsabF6xRAuhFTz7/YrrHHU9H4VK/Xfnh7Vg==}
+  aws-cdk@2.1107.0:
+    resolution: {integrity: sha512-7GKCq7p/33Jw+C+Ohwl4LnnKjvI/MzemeNZlTu/Kg8IwuZx5WEXEi32YLOlxbE1JOvleDslCWK5AIkBZ0omx/Q==}
     engines: {node: '>= 18.0.0'}
     hasBin: true
 
@@ -2707,7 +2707,7 @@ snapshots:
       '@aws-cdk/cloud-assembly-schema': 48.20.0
       constructs: 10.4.5
 
-  aws-cdk@2.1104.0: {}
+  aws-cdk@2.1107.0: {}
 
   babel-jest@30.2.0(@babel/core@7.28.5):
     dependencies:
