@@ -13,11 +13,11 @@
     },
     {
       "matchUpdateTypes": ["minor"],
-      "automerge": false
+      "automerge": true
     },
     {
       "matchUpdateTypes": ["major"],
-      "automerge": false
+      "automerge": true
     }
   ],
   "npm": {
