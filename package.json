@@ -37,7 +37,7 @@
     "aws-cdk": "2.1122.0",
     "dotenv": "^17.4.2",
     "dotenv-cli": "^11.0.0",
-    "eslint": "^10.3.0",
+    "eslint": "^10.4.0",
     "eslint-config-prettier": "^10.1.8",
     "eslint-plugin-awscdk": "^4.3.3",
     "eslint-plugin-n": "^18.0.1",
