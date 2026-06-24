@@ -5,7 +5,7 @@
     "aws-cdk-template": "bin/aws-cdk-template.js"
   },
   "engines": {
-    "node": ">=24.17.0"
+    "node": ">=24.18.0"
   },
   "packageManager": "pnpm@10.34.4",
   "scripts": {
