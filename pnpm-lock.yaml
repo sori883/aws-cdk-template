@@ -43,8 +43,8 @@ importers:
         specifier: ^10.1.8
         version: 10.1.8(eslint@10.7.0)
       eslint-plugin-awscdk:
-        specifier: ^4.3.3
-        version: 4.3.3(eslint@10.7.0)(typescript@5.9.3)
+        specifier: ^4.4.0
+        version: 4.4.0(eslint@10.7.0)(typescript@5.9.3)
       eslint-plugin-n:
         specifier: ^18.2.2
         version: 18.2.2(eslint@10.7.0)(ts-declaration-location@1.0.7(typescript@5.9.3))(typescript@5.9.3)
@@ -1018,8 +1018,8 @@ packages:
     peerDependencies:
       eslint: '>=7.0.0'
 
-  eslint-plugin-awscdk@4.3.3:
-    resolution: {integrity: sha512-5cjO/ZouH04KgKOVa58zdhB4B1ULXNVAcZoK6pTQaysvmTfwaZT+fag81bbyS3jPM4Q/G2HrVQLDApdF+mqdYQ==}
+  eslint-plugin-awscdk@4.4.0:
+    resolution: {integrity: sha512-4hNIYqw/0wuRI52it1gXqWL8tytJOCwy34ySuNfJDp8EBnnthLCU72kQb0a7H+ARZfgPbc6zqQcPxo3KX6M7Kw==}
     engines: {node: ^18.18.0 || ^20.9.0 || >=21.1.0}
     peerDependencies:
       eslint: ^8.57.0 || ^9.0.0 || ^10.0.0
@@ -2996,7 +2996,7 @@ snapshots:
     dependencies:
       eslint: 10.7.0
 
-  eslint-plugin-awscdk@4.3.3(eslint@10.7.0)(typescript@5.9.3):
+  eslint-plugin-awscdk@4.4.0(eslint@10.7.0)(typescript@5.9.3):
     dependencies:
       eslint: 10.7.0
       typescript: 5.9.3
