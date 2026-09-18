@@ -20,7 +20,7 @@ importers:
         version: 10.0.1(eslint@10.10.0)
       '@ianvs/prettier-plugin-sort-imports':
         specifier: ^4.7.1
-        version: 4.7.1(prettier@3.9.7)
+        version: 4.7.1(prettier@3.9.8)
       '@types/jest':
         specifier: ^30.0.0
         version: 30.0.0
@@ -52,8 +52,8 @@ importers:
         specifier: ^30.5.1
         version: 30.5.1(@types/node@24.13.5)(ts-node@10.9.2(@types/node@24.13.5)(typescript@5.9.3))
       prettier:
-        specifier: ^3.9.7
-        version: 3.9.7
+        specifier: ^3.9.8
+        version: 3.9.8
       ts-jest:
         specifier: ^29.4.12
         version: 29.4.12(@babel/core@7.28.5)(@jest/transform@30.5.1)(@jest/types@30.5.1)(babel-jest@30.5.1(@babel/core@7.28.5))(jest-util@30.5.1)(jest@30.5.1(@types/node@24.13.5)(ts-node@10.9.2(@types/node@24.13.5)(typescript@5.9.3)))(typescript@5.9.3)
@@ -1762,8 +1762,8 @@ packages:
     resolution: {integrity: sha512-vkcDPrRZo1QZLbn5RLGPpg/WmIQ65qoWWhcGKf/b5eplkkarX0m9z8ppCat4mlOqUsWpyNuYgO3VRyrYHSzX5g==}
     engines: {node: '>= 0.8.0'}
 
-  prettier@3.9.7:
-    resolution: {integrity: sha512-T3mF5P7HFzZVLDQuCUNtJj6WK1pcpLMweMNUVwGb01bLNkH9AkKxtZvmInw8K6bnn2O3d6/5RHl6zSHiBAD0Og==}
+  prettier@3.9.8:
+    resolution: {integrity: sha512-WRFq3Wn3WId7LLROfMLdH7xaFr2jR62wU8nLO6rQUOLOxNZUviyJQs1M0iIhLexSFy+L+w0ch66wtoO2jRjG0A==}
     engines: {node: '>=14'}
     hasBin: true
 
@@ -2345,13 +2345,13 @@ snapshots:
 
   '@humanwhocodes/retry@0.4.3': {}
 
-  '@ianvs/prettier-plugin-sort-imports@4.7.1(prettier@3.9.7)':
+  '@ianvs/prettier-plugin-sort-imports@4.7.1(prettier@3.9.8)':
     dependencies:
       '@babel/generator': 7.28.5
       '@babel/parser': 7.28.5
       '@babel/traverse': 7.28.5
       '@babel/types': 7.28.5
-      prettier: 3.9.7
+      prettier: 3.9.8
       semver: 7.7.3
     transitivePeerDependencies:
       - supports-color
@@ -3996,7 +3996,7 @@ snapshots:
 
   prelude-ls@1.2.1: {}
 
-  prettier@3.9.7: {}
+  prettier@3.9.8: {}
 
   pretty-format@30.2.0:
     dependencies:
