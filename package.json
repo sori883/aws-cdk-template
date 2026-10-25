@@ -7,7 +7,7 @@
   "engines": {
     "node": ">=24.22.1"
   },
-  "packageManager": "pnpm@10.34.8",
+  "packageManager": "pnpm@10.34.9",
   "scripts": {
     "cdk:prd": "pnpm with-env:prd cdk --context env=prd",
     "cdk:stg": "pnpm with-env:stg cdk --context env=stg",
