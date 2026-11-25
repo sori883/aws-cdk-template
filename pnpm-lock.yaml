@@ -46,8 +46,8 @@ importers:
         specifier: ^4.4.0
         version: 4.4.0(eslint@10.15.0)(typescript@5.9.3)
       eslint-plugin-n:
-        specifier: ^18.5.0
-        version: 18.5.0(eslint@10.15.0)(ts-declaration-location@1.0.7(typescript@5.9.3))(typescript@5.9.3)
+        specifier: ^18.6.0
+        version: 18.6.0(eslint@10.15.0)(ts-declaration-location@1.0.7(typescript@5.9.3))(typescript@5.9.3)
       jest:
         specifier: ^30.5.2
         version: 30.5.2(@types/node@26.6.7)(ts-node@10.9.2(@types/node@26.6.7)(typescript@5.9.3))
@@ -1175,8 +1175,8 @@ packages:
     peerDependencies:
       eslint: '>=8'
 
-  eslint-plugin-n@18.5.0:
-    resolution: {integrity: sha512-M7uF6MTN/An+AXqvyIbXq7npJIZOkd5eKo8iMMvWrcDVNyZVdA6TF2lw01aKQfCEidRfpnR78GhAjZorlXNHiw==}
+  eslint-plugin-n@18.6.0:
+    resolution: {integrity: sha512-/UcgYfzZhQ6E/b/j4B9gMt6PotgTrF9lT/qMYnPzXYax5UR127J60I1BoF1R1Oa0Kq7LGhY0JUEm93JucJIbWA==}
     engines: {node: ^20.19.0 || ^22.13.0 || >=24}
     peerDependencies:
       eslint: '>=8.57.1'
@@ -3238,7 +3238,7 @@ snapshots:
       eslint: 10.15.0
       eslint-compat-utils: 0.5.1(eslint@10.15.0)
 
-  eslint-plugin-n@18.5.0(eslint@10.15.0)(ts-declaration-location@1.0.7(typescript@5.9.3))(typescript@5.9.3):
+  eslint-plugin-n@18.6.0(eslint@10.15.0)(ts-declaration-location@1.0.7(typescript@5.9.3))(typescript@5.9.3):
     dependencies:
       '@eslint-community/eslint-utils': 4.9.1(eslint@10.15.0)
       enhanced-resolve: 5.18.4
